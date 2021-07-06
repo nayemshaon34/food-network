@@ -1,4 +1,4 @@
-.felxible-display{
+.flexible-display{
     display: flex;
     margin-bottom: 140px;
 }
@@ -46,4 +46,44 @@ body{
 .food-recepie{
     display: flex;
     margin-bottom: 140px;
+}
+.recepie-border{
+    border: 2px solid seashell;
+    margin: 0px 80px;
+}
+
+.virtual{
+    
+    border:2px solid silver;
+    display: flex;
+    margin: 0% 200px;
+    margin-bottom: 140px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 2px 2px 30px;
+}
+.tube{
+    padding: 0px 133.33px;
+}
+.insta{
+    padding: 0px 133.33px;
+}
+.drib{
+    padding: 0px 133.33px;
+}
+
+.infovir{
+    display: flex;
+}
+footer {
+    margin-bottom: 0%;  
+    background-color: #171717;
+}
+#ftheader{
+    padding-top: 5%;
+    text-align: center;
+}
+#ftp{
+    padding-bottom: 5%;
+    text-align: center;
 }
