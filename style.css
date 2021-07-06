@@ -1,5 +1,6 @@
 .felxible-display{
     display: flex;
+    margin-top: 140px;
 }
 .half-width{
     width : 50%;
@@ -7,31 +8,37 @@
 }
 .half-width img{
     padding-left: 5%;
+    width;
 }
 h1{
     font-family: 'Cinzel', serif;
     font-size: 60px;
+    margin-bottom: 0px;
 }
 .font-color{
     color:rgb(231, 156, 15);
 }
 body{
-    
     color:#575757;
     font-size: 22px;
 }
 .bg-1{
-    background-repeat: no-repeat;
     background-image:url(images/shapes/Frame\ 57.jpg);
-    padding-left: -5%;
-}
-.order-button{
+    background-repeat: repeat;
     
-    background-image: linear-gradient(rgba(248, 126, 113, 0.966),rgb(255, 166, 0));
+}
+.order-button{ 
+    background-image: linear-gradient(salmon,tomato);
     text-decoration:none;
-    padding: 15px 20px;
-    border-radius: 30px;
+    padding: 13px 30px;
+    border-radius: 19px;
     font-size: 22px;
     color: wheat;
-    box-shadow: 2px 2px 20px orange;
+    box-shadow: 2px 2px 10px orange;
+}
+.bg-2{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    width: 100%;
+
 }
