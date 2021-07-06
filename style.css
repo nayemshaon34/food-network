@@ -11,9 +11,6 @@
     padding-left: 5%;
     padding-right: 5%;
 }
-.half-width img{
-    padding-left: 
-}
 .style-width{
     width:50%;
 }
@@ -31,6 +28,7 @@ p{
 body{
     color:#575757;
     font-size: 22px;
+    margin-bottom: 0;
 }
 .bg-1{
     background-image:url(images/shapes/Frame\ 57.jpg);
@@ -51,23 +49,45 @@ body{
     background-repeat: no-repeat;
     width: 100%;
 }
+.myrecepie-h1{
+    text-align: center;
+     margin-top:14px;
+}
+.myrecepie-p{
+    padding:1% 30%;
+    text-align:center;
+    margin-bottom: 0px;
+}
 .food-recepie{
     display: flex;
-    margin-bottom: 140px;
+    margin: 0% 200px;
 }
 .food-image{
     padding: 4px 4px; 
 }
 .recepie-border{
     border:2px solid silver;
-    margin: 0% 14px;
-    margin-bottom: 140px;
-    border: 1px solid silver;
+
     border-radius: 8px;
     box-shadow: 2px 2px 30px;
+    margin-bottom: 140px;
+    margin-top: 0;
+    width:50%;
+
 }
-.food-sand img{
-    padding: 10%;
+.food-sand{
+    margin: 200px 10px;
+    padding-bottom: 2%;
+
+}
+.food-lasa{
+    margin: 200px 10px;
+    padding-bottom: 2%;
+}
+.food-beef {
+    margin: 200px 10px;
+    padding-bottom: 2%;
+   
 }
 .foodpara{
     padding:2% 10%;
@@ -99,7 +119,7 @@ body{
     display: flex;
 }
 footer {
-    margin-bottom: 0%;  
+    margin: 0%;  
     background-color: #171717;
 }
 #ftheader{
@@ -108,5 +128,6 @@ footer {
 }
 #ftp{
     padding-bottom: 5%;
+    margin:0%;
     text-align: center;
 }
