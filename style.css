@@ -1,6 +1,10 @@
+.capture{
+    width:100%;
+}
 .flexible-display{
     display: flex;
     margin-bottom: 140px;
+    
 }
 .half-width{
     width : 50%;
@@ -33,7 +37,6 @@ body{
 .bg-1{
     background-image:url(images/shapes/Frame\ 57.jpg);
     background-repeat: repeat;
-    
 }
 .order-button{ 
     background-image: linear-gradient(salmon,tomato);
@@ -99,7 +102,6 @@ body{
 
 .virtual{
     border:2px solid silver;
-    display: flex;
     margin: 0% 200px;
     margin-bottom: 140px;
     border: 1px solid silver;
@@ -133,4 +135,20 @@ footer{
     text-align: center;
 }
     
+.follow-border{
+   
+        border:2px solid silver;
+        margin: 0% 200px;
+        margin-bottom: 140px;
+        border: 1px solid silver;
+        border-radius: 8px;
+        box-shadow: 2px 2px 30px;
+    
+}
+.fb{
+    padding-bottom: 5%;
+    text-align: center;
+    padding-left: 1%;
+    border:2px solid silver;
 
+}
