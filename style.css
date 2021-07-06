@@ -51,27 +51,28 @@ body{
 }
 .myrecepie-h1{
     text-align: center;
-     margin-top:14px;
+    margin-top:14px;   
 }
 .myrecepie-p{
     padding:1% 30%;
     text-align:center;
     margin-bottom: 0px;
 }
+.myrecepie{
+    margin-bottom: -115px;
+}
 .food-recepie{
     display: flex;
-    margin: 0% 200px;
+    margin: 0px 200px;
 }
 .food-image{
-    padding: 4px 4px; 
+    padding: 2% 10%; 
 }
 .recepie-border{
     border:2px solid silver;
 
     border-radius: 8px;
     box-shadow: 2px 2px 30px;
-    margin-bottom: 140px;
-    margin-top: 0;
     width:50%;
 
 }
@@ -118,7 +119,7 @@ body{
 .infovir{
     display: flex;
 }
-footer {
+footer{
     margin: 0%;  
     background-color: #171717;
 }
@@ -131,3 +132,5 @@ footer {
     margin:0%;
     text-align: center;
 }
+    
+
